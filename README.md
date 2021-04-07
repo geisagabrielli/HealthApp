@@ -19,20 +19,22 @@ Crir um banco de dados e executar as instruções SQLs abaixo para criar a tabel
        `timeattend` VARCHAR(50) NOT NULL COLLATE 'utf8_general_ci',
         `password` VARCHAR(80) NOT NULL COLLATE 'utf8_general_ci',
          `situation` INT(1) NOT NULL,
-  	PRIMARY KEY (`id`) USING BTREE
+  	PRIMARY KEY (`profregister`) USING BTREE
   )
   COLLATE='utf8_general_ci'
   ENGINE=InnoDB
   
   Crir um banco de dados e executar as instruções SQLs abaixo para criar a tabela Unidade:
 
-  CREATE TABLE `unit` (
-  	`unitcod` INT(11) NOT NULL AUTO_INCREMENT,
-  	`kindplace` VARCHAR(80) NOT NULL COLLATE 'utf8_general_ci',
-  	`state` TEXT(80) NOT NULL COLLATE 'utf8_general_ci',
-  	`address` VARCHAR(80) NOT NULL COLLATE 'utf8_general_ci',
-    `specialit` VARCHAR(80) NOT NULL COLLATE 'utf8_general_ci',
-  	 PRIMARY KEY (`id`) USING BTREE
+CREATE TABLE `unit` (
+  `unitcod` int(11) NOT NULL,
+  `kindplace` varchar(80) NOT NULL,
+  `state` text NOT NULL,
+  `address` varchar(80) NOT NULL,
+  `specialit` varchar(80) NOT NULL
+   	PRIMARY KEY (`unitcod`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
   )
   COLLATE='utf8_general_ci'
   ENGINE=InnoDB
