@@ -1,6 +1,7 @@
 Aplicação desenvolvida para a conclusão do curso de Engenharia de Software
 
-A aplicação foi criada com banco de dados local; A aplicação contém código em HMTL, PHP e json.
+A aplicação foi criada com banco de dados local; A aplicação contém código em HMTL, PHP, CSS e json.
+
 
 Banco de dados criar um banco de dados e executar as instruções SQLs abaixo para criar a tabela Usuários:
 
@@ -55,3 +56,19 @@ Para rodar o composer, basta acessar a pasta do projeto e executar o comando aba
 ```
 
 Após essa execução uma uma pasta com o nome vendor será criada na raiz do projeto e poderá acessar pelo seu navegador.
+
+## Sistema
+
+Para realizar o login no sistema, utilizar
+
+Usuário: teste@tests.com;
+Senha: 12345
+
+
+As páginas funcionais são as páginas:
+
+Cadastro (Usuários, Unidades, Procedimentos e Exames)
+Código Internacional de Doenças
+
+Todas retornam ao Home. 
+
