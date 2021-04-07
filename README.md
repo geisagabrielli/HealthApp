@@ -4,7 +4,7 @@ Aplicação desenvolvida para a conclusão do curso de Engenharia de Software
 
 A aplicação foi criada com banco de dados local e contém código em HMTL, PHP, CSS, json e MySQL.
 
-##Banco de dados
+## Banco de dados
 
 Criar um banco de dados e executar as instruções SQLs abaixo para criar a tabela Usuários:
 
@@ -36,11 +36,11 @@ CREATE TABLE `proc` (
   `typeproc1` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-##Configuração
+## Configuração
 
 As credenciais do banco de dados estão no arquivo ./app/Db/Database.php e você deve alterar para as configurações do seu ambiente (HOST, NAME, USER e PASS).
 
-##Composer
+## Composer
 
 Para a aplicação funcionar, é necessário rodar o Composer para que sejam criados os arquivos responsáveis pelo autoload das classes.
 
@@ -51,7 +51,7 @@ Para rodar o composer, basta acessar a pasta do projeto e executar o comando aba
 
 Após essa execução uma uma pasta com o nome vendor será criada na raiz do projeto e poderá acessar pelo seu navegador.
 
-##Sistema
+## Sistema
 
 Para realizar o login no sistema, utilizar
 
