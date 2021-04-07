@@ -2,7 +2,7 @@ Aplicação desenvolvida para a conclusão do curso de Engenharia de Software
 
 A aplicação foi criada com banco de dados local; A aplicação contém código em HMTL, PHP e json.
 
-Banco de dados Crir um banco de dados e executar as instruções SQLs abaixo para criar a tabela Usuários:
+Banco de dados criar um banco de dados e executar as instruções SQLs abaixo para criar a tabela Usuários:
 
 ## Banco de dados
 
